@@ -34,7 +34,7 @@ class CoreNLP:
             os.environ["CORENLP_HOME"] = os.path.abspath(
                 os.path.join(
                     os.path.dirname(__file__),
-                    "/corenlp/stanford-corenlp-full-2018-10-05",
+                    '../../third_party/stanford-corenlp-full-2018-10-05',
                 )
             )
         if not os.path.exists(os.environ["CORENLP_HOME"]):

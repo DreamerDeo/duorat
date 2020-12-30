@@ -12,7 +12,7 @@
         encoder: {
             initial_encoder: {
                 name: 'Bert',
-                pretrained_model_name_or_path: 'bert-base-uncased',
+                pretrained_model_name_or_path: 'bert/uncased_L-12_H-768_A-12',
                 trainable: false,
                 num_return_layers: 1,
                 embed_dim: 256,
