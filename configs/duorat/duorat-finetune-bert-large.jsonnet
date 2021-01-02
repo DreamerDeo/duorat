@@ -13,7 +13,7 @@
         encoder: {
             initial_encoder: {
                 name: 'Bert',
-                pretrained_model_name_or_path: 'bert/uncased_L-24_H-1024_A-16',
+                pretrained_model_name_or_path: 'bert-large-uncased-whole-word-masking',
                 trainable: true,
                 num_return_layers: 1,
                 embed_dim: 256,

@@ -3,7 +3,7 @@ black==19.10b0
 asdl==0.1.5
 astor==0.8.1
 attrs==18.2.0
-jsonnet==0.16.0
+# jsonnet==0.16.0
 nltk==3.5
 networkx==2.4
 numpy==1.19.1
